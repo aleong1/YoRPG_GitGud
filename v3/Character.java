@@ -19,6 +19,23 @@ public class Character{
 	return _defense;
     }
 
+    public int getHP(){
+	//returns value of defense
+	return _HP;
+    }
+
+    public int getStrength(){
+	//returns value of defense
+	return _strength;
+    }
+
+    public double getAttack(){
+	//returns value of defense
+	return _attack;
+    }
+
+    
+
     public void lowerHP(int a){
 	// decrease HP by a
 	_HP = _HP - a;

@@ -74,9 +74,38 @@ public class YoRPG
     }
     catch ( IOException e ) { }
 
-    //instantiate the player's character
-    pat = new Protagonist( name );
+    s = "Choose thy job \n";
+    s += "\t1: Paladin\n";
+    s += Paladin.about();
+    s += "\t2 Ninja\n";
+    s += Ninja.about();
+    s += "\t3 Bard\n";
+    s += Bard.about();
+    s += "Selection: ";
+    System.out.print ( s );
 
+    int Job = 0;
+    try{
+	Job = Integer.parseInt(in.readLine() );
+    }
+
+    catch (IOException e) {Job = 0; }
+
+    //instantiate the player's character
+    if (Job == 0){
+	pat = new Protagonist( name );
+    }
+    if (Job == 1){
+	pat = new Paladin( name );
+    }
+    if (Job == 2){
+	pat = new Ninja ( name );
+    }
+    if (Job == 3){
+	pat = new Bard ( name );
+    }
+	
+    
   }//end newGame()
 
 

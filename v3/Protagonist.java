@@ -1,3 +1,4 @@
+
 /* Team GitGud - Alexia Leong, Alan Wang, Peter Cwalina
    APCS1 pd2
    HW 31 -- Ye Olde Role Playing Game, Expanded
@@ -5,9 +6,9 @@
 
 public class Protagonist extends Character{
     //instance variables:
-    private String _name;
-    private int _originalS;
-    private int _originalD;
+    protected String _name;
+    protected double _originalA;
+    protected int _originalD;
     
     //methods:
     public Protagonist(String name){
@@ -17,6 +18,8 @@ public class Protagonist extends Character{
 	_strength = 100;
 	_defense = 40;
 	_attack = 0.4;
+	_originalA = .4;
+	_originalD = 40;
     }
 
     public String getName(){
@@ -32,7 +35,7 @@ public class Protagonist extends Character{
 
     public void normalize(){
 	//prep for normal attack, resets defense and attack
-	_attack = 0.4;
-	_defense = 40;
+	_attack = _originalA;
+	_defense = _originalD;
     }
 }
