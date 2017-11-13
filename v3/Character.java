@@ -1,13 +1,13 @@
 /* Team GitGud - Alexia Leong, Alan Wang, Peter Cwalina
    APCS1 pd2
-   HW 30 -- Ye Olde Role Playing Game, Improved
-   2017-11-10 */
+   HW 31 -- Ye Olde Role Playing Game, Expanded
+   2017-11-13 */
 
 public class Character{
-    public int _HP;
-    public int _strength;
-    public int _defense;
-    public double _attack;
+    protected int _HP;
+    protected int _strength;
+    protected int _defense;
+    protected double _attack;
 
     public boolean isAlive(){
 	//is living or dead
