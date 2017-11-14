@@ -1,7 +1,7 @@
 /* Team GitGud - Alexia Leong, Alan Wang, Peter Cwalina
    APCS1 pd2
    HW 32 -- Ye Olde Role Playing Game, Unchained
-   2017-11-10 */
+   2017-11-14 */
 public class Bard extends Protagonist{
     //ye have decided to specialize in the musical genuis
     public Bard(String name){
