@@ -1,8 +1,8 @@
 
 /* Team GitGud - Alexia Leong, Alan Wang, Peter Cwalina
    APCS1 pd2
-   HW 31 -- Ye Olde Role Playing Game, Expanded
-   2017-11-10 */
+   HW 31 -- Ye Olde Role Playing Game, Unchained
+   2017-11-14 */
 public class Ninja extends Protagonist{
     //ye have decided to specialize in the sneaky assasin
     public Ninja(String name){
@@ -30,7 +30,7 @@ public class Ninja extends Protagonist{
     public void specialize(){
 	//prep for special attack, decrease defense, increase attack
 	_attack = 1;
-	_defense = 30;
+	_defense = 10;
     }
 
     public void normalize(){

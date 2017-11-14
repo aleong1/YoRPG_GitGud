@@ -93,7 +93,7 @@ public class YoRPG
 
     //instantiate the player's character
     if (Job == 0){
-	pat = new Protagonist( name );
+	pat = new Paladin( name );
     }
     if (Job == 1){
 	pat = new Paladin( name );

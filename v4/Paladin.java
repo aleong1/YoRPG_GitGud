@@ -1,7 +1,6 @@
-
 /* Team GitGud - Alexia Leong, Alan Wang, Peter Cwalina
    APCS1 pd2
-   HW 31 -- Ye Olde Role Playing Game, Expanded
+   HW 32 -- Ye Olde Role Playing Game, Unchained
    2017-11-10 */
 public class Paladin extends Protagonist{
     //ye have decided to specialize in the tanky class

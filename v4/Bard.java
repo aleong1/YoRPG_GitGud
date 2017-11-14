@@ -1,7 +1,6 @@
-
 /* Team GitGud - Alexia Leong, Alan Wang, Peter Cwalina
    APCS1 pd2
-   HW 31 -- Ye Olde Role Playing Game, Expanded
+   HW 32 -- Ye Olde Role Playing Game, Unchained
    2017-11-10 */
 public class Bard extends Protagonist{
     //ye have decided to specialize in the musical genuis
@@ -30,7 +29,7 @@ public class Bard extends Protagonist{
       public void specialize(){
 	//prep for special attack, decrease defense, increase attack
 	_attack = 1;
-	_defense = 30;
+	_defense = 5;
     }
 
     public void normalize(){

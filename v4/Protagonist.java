@@ -1,8 +1,7 @@
-
 /* Team GitGud - Alexia Leong, Alan Wang, Peter Cwalina
    APCS1 pd2
-   HW 31 -- Ye Olde Role Playing Game, Expanded
-   2017-11-10 */
+   HW 32 -- Ye Olde Role Playing Game, Unchained
+   2017-11-14 */
 
 public abstract class Protagonist extends Character{
     //instance variables:
@@ -26,9 +25,11 @@ public abstract class Protagonist extends Character{
 	//return name
 	return _name;
     }
-    public abstract String about();
+    public static String about(){
+	return "";
+    }
     public abstract void normalize();
     public abstract void specialize();
   
-    
+
 }
