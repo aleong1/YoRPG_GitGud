@@ -27,7 +27,18 @@ public class Ninja extends Protagonist{
 	
 	    
     }
+    public void specialize(){
+	//prep for special attack, decrease defense, increase attack
+	_attack = 1;
+	_defense = 30;
+    }
 
+    public void normalize(){
+	//prep for normal attack, resets defense and attack
+	_attack = _originalA;
+	_defense = _originalD;
+    }
+    
 
 
 }

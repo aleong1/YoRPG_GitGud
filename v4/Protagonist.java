@@ -4,7 +4,7 @@
    HW 31 -- Ye Olde Role Playing Game, Expanded
    2017-11-10 */
 
-public class Protagonist extends Character{
+public abstract class Protagonist extends Character{
     //instance variables:
     protected String _name;
     protected double _originalA;
@@ -26,16 +26,9 @@ public class Protagonist extends Character{
 	//return name
 	return _name;
     }
-
-    public void specialize(){
-	//prep for special attack, decrease defense, increase attack
-	_attack = 1;
-	_defense = 30;
-    }
-
-    public void normalize(){
-	//prep for normal attack, resets defense and attack
-	_attack = _originalA;
-	_defense = _originalD;
-    }
+    public abstract String about();
+    public abstract void normalize();
+    public abstract void specialize();
+  
+    
 }
