@@ -8,7 +8,12 @@ public class Character{
     protected int _strength;
     protected int _defense;
     protected double _attack;
+    protected int _speed; 
 
+    public int getspeed() {
+	//returns value of speed
+	return _speed;
+    }
     public boolean isAlive(){
 	//is living or dead
 	return _HP > 0;

@@ -13,7 +13,7 @@ public class Paladin extends Protagonist{
 	_attack = 0.2;
 	_originalD = 50;
 	_originalA = 0.2;
-
+	_speed = 5;
     }
     public static String about(){
 	String retStr;
@@ -22,6 +22,7 @@ public class Paladin extends Protagonist{
 	retStr += "\n\t a defense of: 50";
 	retStr += "\n\t an HP of: 300 ";
 	retStr += "\n\t and a strength of: 70\n";
+	retStr += "\n\t and a speed of 5\n";
 	return retStr;
 	
 	    

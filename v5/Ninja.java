@@ -13,6 +13,7 @@ public class Ninja extends Protagonist{
 	_attack = 0.5;
 	_originalD = 20;
 	_originalA = 0.5;
+	_speed = 8;
 
     }
     public static String about(){
@@ -22,6 +23,7 @@ public class Ninja extends Protagonist{
 	retStr += "\n\t a defense of: 20";
 	retStr += "\n\t an HP of: 100 ";
 	retStr += "\n\t and a strength of: 150\n";
+	retStr += "\n\t and a speed of: 8\n ";
 	return retStr;
 	
 	    
