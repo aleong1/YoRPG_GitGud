@@ -30,6 +30,7 @@ public abstract class Protagonist extends Character{
     }
     public abstract void normalize();
     public abstract void specialize();
+    public abstract void potion();
   
 
 }

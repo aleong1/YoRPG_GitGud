@@ -38,6 +38,10 @@ public class Ninja extends Protagonist{
 	_defense = _originalD;
     }
     
+    public void potion(){
+	_HP = _HP + 60;
+    }
+    
 
 
 }
