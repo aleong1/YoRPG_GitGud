@@ -1,7 +1,7 @@
 /* Team GitGud - Alexia Leong, Alan Wang, Peter Cwalina
    APCS1 pd2
-   HW 32 -- Ye Olde Role Playing Game, Unchained
-   2017-11-14 */
+   HW 33 -- Ye Olde Role Playing Game, Realized
+   2017-11-15 */
 
 public abstract class Protagonist extends Character{
     //instance variables:

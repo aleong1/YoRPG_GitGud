@@ -1,8 +1,7 @@
-
 /* Team GitGud - Alexia Leong, Alan Wang, Peter Cwalina
    APCS1 pd2
-   HW 31 -- Ye Olde Role Playing Game, Unchained
-   2017-11-14 */
+   HW 33 -- Ye Olde Role Playing Game, Realized
+   2017-11-15 */
 public class Ninja extends Protagonist{
     //ye have decided to specialize in the sneaky assasin
     public Ninja(String name){
