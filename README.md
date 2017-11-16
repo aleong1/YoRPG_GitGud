@@ -5,6 +5,7 @@
 This class includes all the instance variables used by the Protaginist and Monster class. In addition, it includes the accessors and a method that lowers the characters HP. 
 <h2>Protagonist</h2>
 In this subclass of character, it has all the properties of character except the constructor. In addition, it includes an accessor to get the name of the protaginist, a constructor, and a method that normalizes the instance variables declared in the constructor. 
+All subclasses now have the ability to use potions
 <h3>Bard</h3>
 This is a subclass of Protagonist with a strength of 0, not really a first choice attacker.
 <h3>Paladin</h3>
