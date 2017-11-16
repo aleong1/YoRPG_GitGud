@@ -1,7 +1,7 @@
 # YoRPG_GitGud
   Roster: Alexia Leong, Alan Wang, Peter Cwalina
 
-<h1>Character</h1>
+<h2>Character</h2>
 This class includes all the instance variables used by the Protaginist and Monster class. In addition, it includes the accessors and a method that lowers the characters HP. 
 <h2>Protagonist</h2>
 In this subclass of character, it has all the properties of character except the constructor. In addition, it includes an accessor to get the name of the protaginist, a constructor, and a method that normalizes the instance variables declared in the constructor. 
