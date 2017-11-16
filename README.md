@@ -23,3 +23,4 @@ The last subclass of Monster with the highest attack rating of the three of 0.8.
 <h2>YoRPG</h2> 
 In this class YoRPG, the driver of this game it includes different instance variables that changes the flow of the game, a default constructor, and methods in order to run the game. 
 <h2>How To Play</h2> 
+First, run the YoRPG_GitGud.class file by using java YoRPG_GitGud. Then follow the instructions provided in the terminal. Follow along by using the number shortcuts rather than typing in your answer. This shall provide you with countless hours of excitment. 
