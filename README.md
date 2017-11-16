@@ -21,3 +21,4 @@ Another subclass of Monster with a higher attack rating, of 0.3.
 The last subclass of Monster with the highest attack rating of the three of 0.8.
 <h2>YoRPG</h2> 
 In this class YoRPG, the driver of this game it includes different instance variables that changes the flow of the game, a default constructor, and methods in order to run the game. 
+<h2>How To Play</h2> 
